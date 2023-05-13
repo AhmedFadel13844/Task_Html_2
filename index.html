@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Personal Data</title>
+ <style type="text/css">
+.Personal{background-color:#5E9DA2;}
+div{width: 80px;height: 80px;background-color: #388686;position:relative;top: -40px;line-height: 65px;}
+*{text-transform: capitalize;}
+input,option,section{outline: none;}
+option,section{text-align: center;}
+button{border-radius: 10px;font-size: 23px;width: 95px;margin-top: 10px;background-color: rgb(44, 44, 44);color: white;cursor: pointer;}
+
+ </style>
+</head>
+<body style="background-color: #405657;">
+
+ <form style="background-color:#2E6E6E " >
+  <fieldset>
+<legend class="Personal"> Personal Data</legend>
+
+<br>
+<br>
+<form >
+<fieldset style="background-color:#5E9DA2">
+<div> <legend class="Name">Your Name</legend></div>
+
+<table>
+ <tr>
+     <td><label for="fName">First  Name</label></td>
+     <td>:</td>
+     <td><input type="text" id="fName" Name="fName" placeholder="ex ahmed"></td>
+ </tr>
+ <tr>
+  <td><label for="sName">second Name</label></td>
+  <td>:</td>
+  <td><input type="text" id="sName" Name="sName" placeholder="ex abd elfadel"></td>
+ </tr>
+</table>
+</fieldset>
+</form>
+<br><br>
+
+<table>
+ <tr>
+     <td><label for="phone"> your phone </label></td>
+     <td>:</td>
+     <td><input type="text" Name="phone" id="phone"></td>
+ </tr>
+ <tr>
+  <td><label for="email">email</label></td>
+  <td>:</td>
+  <td><input type="email" Name="email" id="email"></td>
+ </tr>
+ <tr>
+  <td><label for="password">password</label></td>
+  <td>:</td>
+  <td><input type="password" id="password" Name="password"></td>
+</tr>
+<tr>
+<td><label for="re-password">re-password</label></td>
+<td>:</td>
+<td><input type="password" Name="password" id="re-password"></td>
+</tr>
+</table>
+<br><br><br>
+
+
+
+<input type="radio"id="male" Name="ex" value="male">
+<label for="male">male</label>
+<br>
+<input type="radio" id="female" Name="ex" value="female">
+<label for="female">female</label>
+<br><br>
+
+<input type="checkbox"id="student" Name="ed"value="student">
+<label for="student">student</label>
+<br>
+<input type="checkbox"Name="ed"value="graduated" id="graduated">
+<label for="graduated">graduated</label>
+<br><br>
+
+<tr>
+  <td><label for="university">university</label></td>
+  <td>:</td>
+  <td><select name="select">
+    <option value="auc">auc</option>
+    <option value="guc">guc</option>
+    <option value="hwu">hwn</option>
+    <option value="cairo university">cau</option>
+  </select></td>
+</tr>
+
+<br>
+
+<button type="submit">submit</button>
+
+  </fieldset>
+ </form>
+
+</body>
+</html>
